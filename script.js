@@ -1,4 +1,4 @@
-$(document).ready(function(){
+ne$(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
         if(this.scrollY > 20){
@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Web Developer", "Web Designer", "Full-stack Developer", "Freelancer"],
+        strings: ["Web Developer", "Web Designer", "Full-stack Developer", "Learner"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Web Developer", "Web Designer", "Full-stack Developer", "Freelancer"],
+        strings: ["Web Developer", "Web Designer", "Full-stack Developer", "Learner"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
